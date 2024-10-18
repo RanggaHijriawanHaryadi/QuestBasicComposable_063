@@ -42,7 +42,7 @@ fun BasicComposble(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()) {
         Text(
-            text = "Indonesia",
+            text = "Login",
             style = TextStyle(
                 fontSize = 50.sp,
                 fontWeight = FontWeight.Bold,
