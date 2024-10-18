@@ -70,6 +70,11 @@ fun BasicComposble(modifier: Modifier = Modifier){
             fontSize = 15.sp,
             color = Color.Red,
         )
+        Text(
+            text = "20220140063",
+            fontSize = 40.sp,
+            fontWeight = FontWeight.Bold,
+        )
     }
     //Text(text = "Hallo android")
 }
