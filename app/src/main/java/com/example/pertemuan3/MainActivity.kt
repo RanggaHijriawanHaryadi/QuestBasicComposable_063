@@ -50,7 +50,7 @@ fun BasicComposble(modifier: Modifier = Modifier){
             )
         )
         Text(
-            text = "0",
+            text = "Ini adalah halaman login",
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp,
         )
