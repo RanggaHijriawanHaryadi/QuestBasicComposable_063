@@ -58,7 +58,7 @@ fun BasicComposble(modifier: Modifier = Modifier){
 
         Image(painter = painterResource(id = R.drawable.logo),
             contentDescription = null,
-            modifier = Modifier.size(300.dp))//atau""
+            modifier = Modifier.size(300.dp).padding(20.dp))//atau""
     }
     //Text(text = "Hallo android")
 }
