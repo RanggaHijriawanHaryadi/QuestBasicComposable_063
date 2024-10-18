@@ -65,6 +65,11 @@ fun BasicComposble(modifier: Modifier = Modifier){
                 fontSize = 20.sp,
             )
         )
+        Text(
+            text = "Rangga Hijriawan Haryadi",
+            fontSize = 15.sp,
+            color = Color.Red,
+        )
     }
     //Text(text = "Hallo android")
 }
