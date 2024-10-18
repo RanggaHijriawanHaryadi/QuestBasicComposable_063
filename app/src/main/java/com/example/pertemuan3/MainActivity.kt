@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BasicComposble(modifier: Modifier = Modifier){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize()) {
         Text(
             text = "Login",
