@@ -60,7 +60,10 @@ fun BasicComposble(modifier: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier.size(300.dp).padding(20.dp))//atau""
         Text(
-            text = "Nama :"
+            text = "Nama ",
+            style = TextStyle(
+                fontSize = 20.sp,
+            )
         )
     }
     //Text(text = "Hallo android")
