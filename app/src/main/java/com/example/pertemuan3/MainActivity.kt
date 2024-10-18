@@ -53,6 +53,7 @@ fun BasicComposble(modifier: Modifier = Modifier){
             text = "Ini adalah halaman login",
             fontSize = 20.sp,
         )
+
         Image(painter = painterResource(id = R.drawable.i),
             contentDescription = null)//atau""
     }
